@@ -1,1 +1,22 @@
 # Enoch-Portfolio
+
+
+### 📝 About Me  
+Hi! I’m Enoch Oluwajoba, a passionate web developer with a love for creating functional and beautiful web experiences.  
+
+### 🎓 Educational Background  
+I hongoing a degree in Computer Science and Software Engineering from Global Wealth University.  
+**[Download My CV](docs.google.com/document/d/1X2JWQMP4p1KSBumtmjlmQkhHzF42EHppR78DgpVo5p4/edit?usp=drivesdk)**  
+
+### 💡 Interests  
+- **Web Development**: Exploring modern frameworks and best practices.  
+- **Tech Innovations**: Keeping up with emerging trends in technology. 
+- **AI & Machine Language**: Looking for avenues to implementing it in Websites. 
+- **IoT Technology**: Exploring Diverse opportunities in IoT technology.
+
+### 🛠️ Projects  
+1. **[Project 1](https://imisioluwa3.github.io/odin-recipe/)**: A brief description of your project.  
+2. **[Project 2](https://imisioluwa3.github.io/awseome/)**: Another brief description.  
+
+### 📬 Contact Me  
+Feel free to reach out! [Contact Form](oluwajobaimisioluwa@gmail.com, 0817-072-4872, 0708-085-4022)  
