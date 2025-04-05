@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enoch Oluwajoba</title>
+    <title>Enoch Oluwajoba - Web Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Optional: Link Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Optional: Link Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
+
+    <!-- Header & Navigation -->
     <header>
         <nav class="container">
             <a href="#" class="logo">Enoch Oluwajoba</a>
@@ -14,36 +22,159 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <section class="hero">
-            <div class="hero">
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container hero-content">
                 <h1>Hi, I'm Enoch Oluwajoba</h1>
-                <p>A Passionate Web Developer Creating Modern & Responsive Website Applications.</p>
-                <div>
-                    <a href="#projects">View My Works</a>
-                    <a href="#contacts">Get In Touch</a>
+                <p class="subtitle">A Passionate Web Developer Creating Modern & Responsive Web Applications.</p>
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="container section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Hello! I'm Enoch Oluwajoba, a web developer based in Lagos, currently undergoing a Bachelors degree in Computer Science and Software Engineering in Global Wealth University. I have a passion for building clean, elegant, and efficient web solutions. I enjoy turning complex problems into simple, beautiful, and intuitive designs.
+                    </p>
+                    <p>
+                        My journey into web development started from 2019. Since then, I've been honing my skills in front-end and back-end technologies. I'm always eager to learn new things and collaborate on exciting projects.
+                    </p>
+                    <p>Not only do I love Web Development, I am passionate about emerging and innovative technologies like <b><i>IoT Technologies</i></b>, <b><i>AI & Machine Learning</i></b>, <b><i>Tech Innovations</i></b>, <b><i>Robotics</i></b> amongst many others.</p>
+                    <p>
+                        When I'm not coding, you can find me reading books, exploring new technologies, or contributing to open-source projects. I believe in the power of community and love sharing knowledge with others.
+                    </p>
+                    <div class="cv">
+                        <a href="docs.google.com/document/d/1X2JWQMP4p1KSBumtmjlmQkhHzF42EHppR78DgpVo5p4/edit?usp=drivesdk" class="btn btn-secondary">My CV</a>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="">
-            <div class="">
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-html5 fa-3x"></i> <!-- Font Awesome Icon -->
+                        <p>HTML5</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt fa-3x"></i>
+                        <p>CSS3</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js-square fa-3x"></i>
+                        <p>JavaScript (ES6+)</p>
+                    </div>
+                     <div class="skill-item">
+                        <i class="fas fa-database fa-3x"></i> <!-- Example Database -->
+                        <p>SQL</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-git-alt fa-3x"></i>
+                        <p>Git & GitHub</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-terminal fa-3x"></i>
+                        <p>CLI Tools</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-paint-brush fa-3x"></i> <!-- Example Design -->
+                        <p>Responsive Design</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="container section">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+
+                <!-- Project Card 1 (Example) -->
+                <article class="project-card">
+                    <img src="images/project1-placeholder.jpg" alt="Odin Recipe" class="project-image">
+                    <div class="project-info">
+                        <h3>Odin Recipe</h3>
+                        <p>A basic recipe website for <b><i>Odin Restaurant</i></b> showcasing simple and easy to make food and emphasizing on simplicity.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Git & GitHub</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="imisioluwa3.github.io/odin-recipe" target="_blank" class="btn btn-secondary">Live Demo</a>
+                            <a href="www.github.com/imisioluwa3/odin-recipe" target="_blank" class="btn btn-secondary">View Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project Card 2 (Example) -->
+                <article class="project-card">
+                     <img src="images/project2-placeholder.jpg" alt="Awesome Website" class="project-image">
+                    <div class="project-info">
+                        <h3>Awesome</h3>
+                        <p>A simple website focusing mainly on using flexbox in CSS and shows it uniqueness.</p>
+                         <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Git & GitHub</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="imisioluwa3.github.io/awesome" target="_blank" class="btn btn-secondary">Live Demo</a>
+                            <a href="www.github.com/imisioluwa3/awesome" target="_blank" class="btn btn-secondary">View Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Add more project cards as needed -->
 
             </div>
         </section>
-        <section class="">
-            <div class="">
 
-            </div>
-        </section>
-        <section class="">
-            <div class="">
-
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p>I'm currently open to new opportunities and collaborations. Feel free to reach out!</p>
+                <div class="contact-links">
+                    <a href="mailto:oluwajobaimisioluwa@gmail.com" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Email Me
+                    </a>
+                    <a href="www.linkedin.com/in/enoch-oluwajoba-13ab99179" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="www.github.com/imisioluwa3" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
             </div>
         </section>
     </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© <span id="current-year"></span> Enoch Oluwajoba. All rights reserved.</p>
+            <!-- Optional: Add social links again or different ones -->
+            <div class="footer-links">
+                 <a href="www.linkedin.com/in/enoch-oluwajoba-13ab99179" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+                 <a href="www.github.com/imisioluwa3" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+                 <!-- <a href="[Link to Twitter]" target="_blank"><i class="fab fa-twitter fa-lg"></i></a> -->
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
