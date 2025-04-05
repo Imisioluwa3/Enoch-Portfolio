@@ -88,17 +88,12 @@ img {
     padding: 60px 0;
 }
 
-.emp {
-    display: inline-block;
-    font-style: italic;
-    font-weight: 700;
-}
-
 .cv {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 /* --- Buttons --- */
 .btn {
     display: inline-block;
