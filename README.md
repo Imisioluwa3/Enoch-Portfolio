@@ -6,7 +6,7 @@ Hi! I’m Enoch Oluwajoba, a passionate web developer with a love for creating f
 
 ### 🎓 Educational Background  
 I am undergoing a degree in Computer Science and Software Engineering from Global Wealth University.  
-**[Download My CV](docs.google.com/document/d/1X2JWQMP4p1KSBumtmjlmQkhHzF42EHppR78DgpVo5p4/edit?usp=drivesdk)**  
+**[Download My CV](./assets/Updated%20Enoch%20Oluwajoba%20CV.pdf)**  
 
 ### 💡 Interests  
 - **Web Development**: Exploring modern frameworks and best practices.  
